@@ -1,0 +1,48 @@
+.image-upload-container {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.file-upload-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  border: 3px dashed #dce4f0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  overflow: hidden;
+}
+
+.file-upload-label:hover {
+  border-color: #667eea;
+  background-color: #f8f9fa;
+}
+
+.upload-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #7f8c8d;
+}
+
+.upload-placeholder span {
+  font-size: 4rem;
+}
+
+.upload-placeholder p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.image-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.file-input {
+  display: none;
+}

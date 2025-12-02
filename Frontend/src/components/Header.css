@@ -1,0 +1,26 @@
+.app-header {
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 1.5rem 2rem;
+  box-sizing: border-box;
+  color: rgb(37, 37, 37);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  position: relative; 
+}
+
+.logo {
+  font-size: 2.3rem;
+  line-height: 1;
+  position: absolute; 
+  left: 2rem; 
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}

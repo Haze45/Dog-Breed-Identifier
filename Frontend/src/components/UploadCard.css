@@ -1,0 +1,52 @@
+.card {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.45);
+}
+
+.upload-card {
+  flex: 1;
+  max-width: 450px;
+  min-width: 320px;
+}
+
+.predict-button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background: linear-gradient(45deg, #5e72eb, #7b52aa);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.predict-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.predict-button:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.error-message {
+  margin-top: 1rem;
+  color: #c0392b;
+  font-weight: bold;
+}
